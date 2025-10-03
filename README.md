@@ -1,4 +1,4 @@
-<!ANMOL SINGH>
+<CREATED BY ANMOL SINGH>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -259,6 +259,27 @@
             margin: 10px 0;
             font-family: 'Courier New', monospace;
         }
+
+        .watermark {
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+            opacity: 0.5;
+            font-size: 0.8em;
+            color: white;
+            z-index: 1000;
+            text-align: right;
+        }
+
+        .watermark a {
+            color: white;
+            text-decoration: none;
+            transition: opacity 0.3s;
+        }
+
+        .watermark a:hover {
+            opacity: 1;
+        }
     </style>
 </head>
 <body>
@@ -369,6 +390,24 @@
                 <div class="info-card">
                     <h3>Important Reality Check:</h3>
                     <p><strong>You cannot actually "travel back in time" using speed.</strong> Time dilation only causes time to pass more slowly for the moving object—it still moves forward. The traveling twin ages less, but doesn't go backward in time. True backward time travel remains purely theoretical and faces severe scientific obstacles.</p>
+                </div>
+
+                <h3>Time Travel by Speed: Forward Only</h3>
+                <p>In the context of special relativity, accelerating an object to high speeds (close to the speed of light) enables a form of "time travel" into the future. This occurs because of time dilation: from the perspective of a stationary observer, the moving object's clock ticks slower. When the object returns, more time has elapsed for the observer than for the traveler.</p>
+                
+                <p>For instance, if an object travels at 99% the speed of light (v = 0.99c) for 1 year according to its own clock (proper time Δt₀ = 1 year), the Lorentz factor γ ≈ 7.09. Thus, the stationary observer measures Δt = γ × Δt₀ ≈ 7.09 years. The traveler has effectively "jumped" 6.09 years into Earth's future upon return.</p>
+                
+                <div class="formula-box">
+                    <p><strong>Forward Time Jump Formula:</strong></p>
+                    <div class="formula">Time Jump = (γ - 1) × Δt₀</div>
+                    <p style="text-align: center; font-size: 0.9em;">This quantifies how much "future" the traveler skips relative to the stationary frame.</p>
+                </div>
+                
+                <p>However, this is strictly one-directional forward travel. Backward time travel would require velocities exceeding c, which violates causality and the principles of relativity. No known mechanism in special relativity allows reversal of time's arrow through speed alone. Concepts like wormholes or exotic matter (from general relativity) are speculative and unproven for backward travel.</p>
+                
+                <div class="info-card warning">
+                    <h3>Implications for Interstellar Travel:</h3>
+                    <p>At 99.999% c (γ ≈ 223.6), a 10-year journey (traveler time) could span over 2,236 years on Earth. Explorers might return to a future civilization, but they'd leave their era behind forever—no returning to "fix" the past.</p>
                 </div>
                 
                 <h3>What About Speeds Below Light Speed?</h3>
@@ -508,6 +547,10 @@
                 </div>
             </div>
         </div>
+    </div>
+
+    <div class="watermark">
+        <a href="https://www.instagram.com/rajput_anmolsingh3/" target="_blank">ANMOL SINGH/IG=rajput_anmolsingh3</a>
     </div>
 
     <script>
